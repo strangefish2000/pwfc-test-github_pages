@@ -1,0 +1,13 @@
+USING TWO REPOs:
+1.   github.com/strangefishBEDROOM/pwfc-bootstrap1
+2.   https://github.com/strangefish2000/pwfc-bootstrap1
+
+I've setup an upstream from strangefish2000 to strangefishBEDROOM
+(to do this see Evernote / git)
+
+USE:
+git remote add upstream < GITHUB_ACCOUNT_TO_BE_FORKED >
+then, to update from changes made on other account:
+git pull upstream master
+
+.....................................................

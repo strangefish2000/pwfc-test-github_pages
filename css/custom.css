@@ -1,0 +1,111 @@
+/* 
+https://www.w3schools.com/bootstrap4/bootstrap_scrollspy.asp
+Scrollspy is used to automatically update the ACTIVE link in a navigation list based on scroll position.
+*/
+
+body {
+    background-color: rgb(69, 72, 75)
+}
+
+.container-custom {
+    width: 100%;
+    max-width: 1100px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+.navbar-custom {
+    background-color: rgb(69, 72, 75)
+}
+
+.logo {
+    padding: 30px 2px 0px 2px;
+}
+
+.quick-quote {
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    border: solid 1px rgb(255, 0, 0);
+    border-radius: 3px;
+    float: right;
+    margin: 15px 5px 0px 0px;
+    padding: 2px;
+    background-color: #efeff0;
+}
+/* MAIN */
+main > section, header > h1, p {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* home */
+main > img, main > section img {
+    padding: 4px;
+    border: solid 1px #9d9d9d;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.main-links-md div > a > h6 {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* FAQ's */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+/* FOOTER */
+.footer-custom {
+    background-color: rgb(69, 72, 75);
+    padding-top: 10px;
+}
+
+.footer-custom > hr {
+    background-color: #afb2b3;
+}
+
+
+
+.footer-custom ul {
+    list-style-type: none;
+    /* border: solid green 2px; */
+    margin: 10px 0px 10px 0px;
+}
+
+.footer-custom a:link, a:visited  {
+    color: #afb2b3;
+}
+
+.footer-custom a:hover  {
+    color: #4b2404;
+}
+
+
+/* .footer-dv {
+    border: solid blue 1px;
+    padding: 0px;
+} */
